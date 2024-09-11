@@ -1,0 +1,72 @@
+body{
+  margin: 0;
+  height: 100vh;
+  background-image:   linear-gradient(160deg, rgb(16, 24, 65) 10%, rgb(42, 63, 133)); 
+}
+
+#h1{
+  margin-left: 5%;
+  color: rgb(66, 91, 202); 
+  text-shadow: 2px 2px 2px blue;
+  text-align: start;
+  font-size: xxx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif, Helvetica, sans-serif;
+} 
+  
+.navbar{
+  position:absolute;
+  width: 100%;
+  height: 20vh;
+  justify-content: center;
+}
+
+.navlist{
+  position: relative;
+  margin-top: -5%;
+  margin-left: 20%; 
+  display: flex;
+  flex: content;
+  text-align: center;
+  justify-content: space-evenly;
+}
+
+li{
+  justify-content: center;
+  list-style: none;
+  font-size: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#lista{
+  color: white;
+  text-decoration: none;
+  transition: 1s ease-in-out;
+}
+#lista:hover{
+  color: brown;
+  transition: 1s ease-in-out;
+}
+
+
+.cadastro{
+  margin-top: -5%;
+  color: white;
+  border: none;
+  background-color: red;
+  border-radius: 10px 10px 10px 10px;
+  width: 15ch;
+  height: 4vh;
+  
+  transition: 1s;
+}
+.cadastro:hover{
+  transition: 1s;
+  background-color: rgb(66, 91, 202);
+}
+
+#image{
+  margin-top: 20%;
+  margin-left: 10%;
+  width: 70%;
+  height: 50vh;
+}

@@ -1,0 +1,85 @@
+h1{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  color: rgb(66, 91, 202);
+  text-align: center;
+}
+
+.container{
+  height: 60vh;
+  width: 35%;
+  text-align: center;
+  margin-top: 8%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px 10px 10px 10px;
+  border: solid 1px rgb(66, 91, 202);
+  
+}
+
+.content{
+ margin-top: 5%;
+}
+
+
+#nome{
+  border-radius: 10px ;
+  height: 4vh;
+  width: 55%;
+}
+
+#email{
+  border-radius: 10px;
+  height: 4vh;
+  width: 55%;
+}
+
+#telefone{
+  border-radius: 10px;
+  height: 4vh;
+  width: 55%;
+}
+
+#dtnascimento{
+  border-radius: 10px;
+  height: 4vh;
+  width: 55%;
+}
+
+#senha{
+  border-radius: 10px;
+  height: 4vh;
+  width: 55%;
+}
+
+.foto{
+  border: none;
+  height: 5vh;
+  width: 23%;
+  color: white;
+}
+
+.admin{
+  color: aliceblue;
+}
+
+.button{
+  
+  border: none;
+  border-radius: 5px 5px 5px 5px;
+  background-color: red;
+  color: white;
+  height: 5vh;
+  width: 30%;
+  transition: 3s ease-in-out;
+
+}
+
+
+.button:hover{
+  transition: 3s ease-in-out;
+  background-color: blue;
+}
+
+a{
+  color:rgb(66, 91, 202) ;
+}
